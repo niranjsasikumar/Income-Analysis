@@ -8,4 +8,4 @@ adult = fetch_ucirepo(id=2)
 data = adult.data.original
 
 # Save data to a local CSV file
-data.to_csv('./data/data.csv', index=False)
+data.to_csv('./data/raw_data.csv', index=False)

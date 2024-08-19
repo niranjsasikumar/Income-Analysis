@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load data from CSV file
-data = pd.read_csv('./data/data.csv')
+data = pd.read_csv('./data/raw_data.csv')
 print(data.head())
 
 # Display metadata
